@@ -94,7 +94,7 @@ int tabular_solution(int n)
 {
   int a, b, c, min;
 
-  if (n < HI_COIN - 1) { return h[n]; }
+  if (n < HI_COIN) { return h[n]; }
 
   for (int i = HI_COIN; i <= n; ++i) {
     a = h[i - LO_COIN];
